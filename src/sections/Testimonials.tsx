@@ -28,7 +28,7 @@ export const TestimonialsSection = () => {
   return (
     <div className="py-16 lg:py-24">
       <div className="container">
-        <SectionHeader eyebrow="Experience" />
+        <SectionHeader eyebrow="Experience" title="" description="" />
         <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
           <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused] ">
             {[...new Array(2)].fill(0).map((_, index) => (
